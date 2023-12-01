@@ -20,3 +20,11 @@ check(string);
 function RandomNumberGenerator(){
     return Math.floor(Math.random() * 5 + 1);
 }
+
+function checkSomma(somma){
+    if(somma%2==0){
+        return'pari';
+    }
+     return 'dispari';
+}
+
