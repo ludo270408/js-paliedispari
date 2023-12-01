@@ -1,3 +1,5 @@
+//1. Esercizio
+
 function check(word){
     let reversed = word.split('').reverse('').join('');
 
@@ -11,3 +13,10 @@ function check(word){
 
 let string =prompt('Quale parola devo controllare?');
 check(string);
+
+//2. Esercizio
+
+//Funzione che genera i numeri
+function RandomNumberGenerator(){
+    return Math.floor(Math.random() * 5 + 1);
+}
