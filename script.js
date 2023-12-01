@@ -28,3 +28,9 @@ function checkSomma(somma){
      return 'dispari';
 }
 
+let user_choice= prompt(' Inserisci un valore tra "pari" e "dispari"');
+let user_number= parseInt(prompt('Inserisci un numero da 1 a 5: '));
+let pc_number=RandomNumberGenerator();
+let somma= user_number + pc_number;
+
+
